@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="node_modules/bootstrap-material-design/node_modules/bootstrap/dist/css/bootstrap.css" media="screen" title="no title">
+    <link rel="stylesheet" href="node_modules/bootstrap-material-design/dist/css/bootstrap-material-design.css" media="screen" title="no title">
+    <link rel="stylesheet" href="node_modules/bootstrap-material-design/dist/css/ripples.css" media="screen" title="no title">
+    <link rel="stylesheet" href="css/stylesheet.css" media="screen" title="no title">
+    <link rel="stylesheet" href="css/animate.css" media="screen" title="no title">
+    <link rel="stylesheet" href="css/normalize.css" media="screen" title="no title">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i" rel="stylesheet">
+    <title></title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row letraNav ">
+        <nav class="navbar navbar-default letraNav" role="navigation">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Desplegar navegación</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a href="index.html" class="navbar-brand">Nombre de Empresa</a>
+          </div>
+          <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="nosotros.html">Nosotros</a></li>
+              <li><a href="catalogo.html">Catalogo</a></li>
+              <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="page-header fadeIn">
+        <h1>Contactanos</h1>
+      </div>
+      <div class="well">¿Tienes alguna duda o comentario? Envianos un correo y te responderemos lo más rápido posible.</div>
+      <form action="enviar.php" class="form-horizontal" method="post" role="form">
+    	<div class="form-group">
+        <label for="email" class="col-sm-2 control-label">E-mail/Correo</label>
+        <div class="col-sm-4">
+    			<input type="email" class="form-control" id="email" name="email" placeholder="Correo" required autofocus>
+    		</div>
+    	</div>
+
+      <div class="form-group">
+    		<label for="name" class="col-sm-2 control-label">Nombre</label>
+        <div class="col-sm-4">
+    			<input type="text" class="form-control" id="name" name="name" placeholder="Nombre" required>
+    		</div>
+    	</div>
+
+    	<div class="form-group">
+    		<label for="name" class="col-sm-2 control-label">Mensaje</label>
+    		<div class="col-sm-6">
+    			<textarea id="message" name="message" class="form-control" placeholder="Tú mensaje" rows="5" required></textarea>
+    		</div>
+    	</div>
+
+      <div class="form-group">
+    		<div class="col-sm-offset-2 col-sm-6">
+    			<button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+    		</div>
+    	</div>
+    </form>
+</div>
+
+
+
+
+
+
+
+
+
+    <footer>
+      <div class="center_elements">
+        <a href="http://www.facebook.com"><img class="social" src="images/facebook_white.png" alt="Facebook"/></a>
+        <a href="http://www.twitter.com"><img class="social" src="images/twitter_white.png" alt="Twitter" /></a>
+        <a href="http://www.youtube.com"><img class="social" src="images/youtube_white.png" alt="YouTube" /></a>
+
+      </div>
+    </footer>
+    <!--scripts-->
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script type="text/javascript" src="node_modules/bootstrap-material-design/node_modules/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="node_modules/bootstrap-material-design/node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script type="text/javascript" src="node_modules/bootstrap-material-design/dist/js/material.js"></script>
+    <script type="text/javascript" src="node_modules/bootstrap-material-design/dist/js/ripples.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC1DbTNocjJUyYKHEGyqo45qwDc7Js1Rbs&callback=initMap"async defer></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript">
+      $.material.init();
+      </script>
+  </body>
+</html>

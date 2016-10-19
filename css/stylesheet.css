@@ -1,0 +1,106 @@
+*{
+  font-family: 'Roboto', sans-serif;
+}
+.navColor{
+  background-color: #333333;
+}
+
+html, body{
+  width: 100%;
+}
+div.fab{
+  position: fixed;
+  z-index: 1;
+  bottom: 20px;
+  right: 20px;
+}
+.carouselPadding{
+  padding-left:  0px;
+  padding-right: -15px;
+}
+/*.carouselSize{
+  width: 100%;
+  max-width: 100%;
+}*/
+div.listCircle{
+  margin-top: 3.5%;
+}
+div.center_elements{
+  text-align: center;
+}
+div.paddingTopCompromiso{
+  padding-top: 2%;
+}
+div.paddingMarcasBanner{
+  padding-top: 4%;
+}
+h4.misEspecifiaciones_tittle{
+  margin-top: 5%;
+  text-align: center;
+  font-size: 1.8em;
+}
+span.fabIcon{
+  margin-top: 13px;
+}
+img.tamanoBosque{
+  width: 880px;
+  height: 382px;
+}
+img.servicios2{
+  height: 56px;
+  width: 56px;
+}
+img.social{
+  width: 60px;
+  height: auto;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  cursor: pointer;
+}
+h4.tittleServicio{
+  padding-top:4px;
+  text-align: left;
+}
+.espacio-listas{
+  padding-top: 10px;
+  font-size: 15px;
+
+}
+img.responsive {
+    width:100%;
+    max-width:100%;
+}
+.letraNav{
+  font-family: 'Roboto', sans-serif;
+}
+#map {
+  height: 400px;
+  margin-top: 7%;
+}
+.mapaPadding{
+  padding-right:28px
+}
+div.nosotros_container{
+  margin: 6%;
+}
+img.imag_Banner{
+  width: 100%;
+  height: 250px;
+}
+p.nosotros_texto{
+  font-size: 1.3em;
+  text-align: justify;
+}
+p.tamtext{
+  font-size: 16px
+}
+.alinearServ{
+  padding-left: 15px;
+}
+footer{
+  left: 0;
+  bottom: 0;
+  height: auto;
+  width: 100%;
+  background-color: #333333;
+}
