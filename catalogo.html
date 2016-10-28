@@ -10,21 +10,21 @@
     <link rel="stylesheet" href="css/stylesheet.css" media="screen" title="no title">
     <link rel="stylesheet" href="css/animate.css" media="screen" title="no title">
     <link rel="stylesheet" href="css/normalize.css" media="screen" title="no title">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i" rel="stylesheet">
     <title></title>
   </head>
   <body>
-    <div class="container">
-      <div class="row ">
-        <nav class="navbar navColor letra" role="navigation">
-          <div class="navbar-header">
+    <!--Navbar-->
+    <div class="container fontNav">
+      <div class="row">
+        <nav class="navbar navbar-default" role="navigation">
+          <div class="navbar-header default">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
             <span class="sr-only">Desplegar navegación</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             </button>
-            <a href="index.html" class="navbar-brand">Nombre de Empresa</a>
+            <a href="#"class="navbar-brand">Nombre de Empresa</a>
           </div>
           <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav">
@@ -33,20 +33,31 @@
               <li><a href="catalogo.html">Catalogo</a></li>
               <li><a href="contacto.html">Contacto</a></li>
             </ul>
+            <!--Buscador-->
+            <li class="nav navbar-nav buscador">
+            <form class="navbar-form">
+            <div class="form-group">
+            <input type="text" class="form-control col-md-8" placeholder="Buscar en este sitio">
+            </div>
+            </form>
+            </li>
           </div>
         </nav>
       </div>
     </div>
 
 
-    <div class="row">
+    <div class="row alinearServ" style="margin-top:3%">
       <div class="col-sm-6 col-md-4">
         <div class="thumbnail">
           <img src="images/cam1.jpg" alt="Camara">
           <div class="caption">
             <h3>Producto 1</h3>
-            <p>Definción de producto</p>
-            <p><a href="#" class="btn btn-primary" role="button">Ver más</a> <a href="#" class="btn btn-default" role="button">Comprar</a></p>
+            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.
+            <br>Nullam id dolor id nibh ultricies vehicula ut id elit.
+            Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.
+            <br>Nullam id dolor id nibh ultricies vehicula ut id elit.<br></p>
+            <p><a href="#" class="btn btn-primary" role="button">Ver más</a></p>
           </div>
         </div>
       </div>
@@ -55,8 +66,11 @@
           <img src="images/cam2.jpg" alt="Camara">
           <div class="caption">
             <h3>Producto 1</h3>
-            <p>Definción de producto</p>
-            <p><a href="#" class="btn btn-primary" role="button">Ver más</a> <a href="#" class="btn btn-default" role="button">Comprar</a></p>
+            Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.
+            <br>Nullam id dolor id nibh ultricies vehicula ut id elit.
+            Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.
+            <br>Nullam id dolor id nibh ultricies vehicula ut id elit.<br>
+            <p><a href="#" class="btn btn-primary" role="button">Ver más</a></p>
           </div>
         </div>
       </div>
@@ -65,14 +79,17 @@
           <img src="images/cam3.jpg" alt="Camara">
           <div class="caption">
             <h3>Producto 1</h3>
-            <p>Definción de producto</p>
-            <p><a href="#" class="btn btn-primary" role="button">Ver más</a> <a href="#" class="btn btn-default" role="button">Comprar</a></p>
+            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.
+            <br>Nullam id dolor id nibh ultricies vehicula ut id elit.
+            Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.
+            <br>Nullam id dolor id nibh ultricies vehicula ut id elit.<br></p>
+            <p><a href="#" class="btn btn-primary" role="button">Ver más</a></p>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="media">
+    <div class="media alinearServ">
       <div class="media-left">
         <a href="#">
           <img class="media-object" src="images/cam1.jpg" alt="...">
@@ -80,12 +97,16 @@
       </div>
       <div class="media-body" style="text-align:justify">
         <h4 class="media-heading">Media heading</h4>
-        Bla bla kskasdlasdhasdoasdassd jasdasdjasmd kasjdadsoasdasjd adhsadasndadkasd<br>
-        asdhadkalsdkjadjasdkasdads<br>
-        ashdadjasdkaadslasd  asjdajsdasdasdasd asjdajdjasjd<br>
+        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+        <br>Donec id elit non mi porta gravida at eget metus.
+        <br>Nullam id dolor id nibh ultricies vehicula ut id elit.
+        <br>Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+        <br>Donec id elit non mi porta gravida at eget metus.
+        <br>Nullam id dolor id nibh ultricies vehicula ut id elit.<br>
+        </p>
       </div>
     </div>
-    <div class="media ">
+    <div class="media alinearServ">
       <div class="media-left">
         <a href="#">
           <img class="media-object" src="images/cam1.jpg" alt="...">
@@ -93,12 +114,15 @@
       </div>
       <div class="media-body" style="text-align:justify">
         <h4 class="media-heading">Media heading</h4>
-        Bla bla kskasdlasdhasdoasdassd jasdasdjasmd kasjdadsoasdasjd adhsadasndadkasd<br>
-        asdhadkalsdkjadjasdkasdads<br>
-        ashdadjasdkaadslasd  asjdajsdasdasdasd asjdajdjasjd<br>
+        Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+        <br>Donec id elit non mi porta gravida at eget metus.
+        <br>Nullam id dolor id nibh ultricies vehicula ut id elit.
+        <br>Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+        <br>Donec id elit non mi porta gravida at eget metus.
+        <br>Nullam id dolor id nibh ultricies vehicula ut id elit.<br>
         </div>
       </div>
-      <div class="media ">
+      <div class="media alinearServ">
         <div class="media-left">
           <a href="#">
             <img class="media-object" src="images/cam1.jpg" alt="...">
@@ -106,12 +130,15 @@
         </div>
         <div class="media-body" style="text-align:justify">
           <h4 class="media-heading">Media heading</h4>
-          Bla bla kskasdlasdhasdoasdassd jasdasdjasmd kasjdadsoasdasjd adhsadasndadkasd<br>
-          asdhadkalsdkjadjasdkasdads<br>
-          ashdadjasdkaadslasd  asjdajsdasdasdasd asjdajdjasjd<br>
+          Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+          <br>Donec id elit non mi porta gravida at eget metus.
+          <br>Nullam id dolor id nibh ultricies vehicula ut id elit.
+          <br>Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+          <br>Donec id elit non mi porta gravida at eget metus.
+          <br>Nullam id dolor id nibh ultricies vehicula ut id elit.<br>
           </div>
         </div>
-        <div class="media ">
+        <div class="media alinearServ">
           <div class="media-left">
             <a href="#">
               <img class="media-object" src="images/cam1.jpg" alt="...">
@@ -119,9 +146,12 @@
           </div>
           <div class="media-body" style="text-align:justify">
             <h4 class="media-heading">Media heading</h4>
-            Bla bla kskasdlasdhasdoasdassd jasdasdjasmd kasjdadsoasdasjd adhsadasndadkasd<br>
-            asdhadkalsdkjadjasdkasdads<br>
-            ashdadjasdkaadslasd  asjdajsdasdasdasd asjdajdjasjd<br>
+            Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+            <br>Donec id elit non mi porta gravida at eget metus.
+            <br>Nullam id dolor id nibh ultricies vehicula ut id elit.
+            <br>Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+            <br>Donec id elit non mi porta gravida at eget metus.
+            <br>Nullam id dolor id nibh ultricies vehicula ut id elit.<br>
             </div>
           </div>
 

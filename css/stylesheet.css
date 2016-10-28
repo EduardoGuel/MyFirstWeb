@@ -1,8 +1,7 @@
-*{
+/**{
   font-family: 'Roboto', sans-serif;
-}
+}*/
 .navColor{
-
   background-color: #5d5a5a;
 }
 
@@ -34,6 +33,11 @@ div.paddingTopCompromiso{
 }
 div.paddingMarcasBanner{
   padding-top: 4%;
+}
+.buscador{
+  float: right;
+  padding-right: 10px;
+
 }
 h4.misEspecifiaciones_tittle{
   margin-top: 5%;
@@ -71,12 +75,11 @@ img.responsive {
     width:100%;
     max-width:100%;
 }
-.letraNav{
-  font-family: 'Roboto', sans-serif;
-}
+
 #map {
-  height: 400px;
-  margin-top: 7%;
+  height: 360px;
+  margin-top: 4%;
+
 }
 .mapaPadding{
   padding-right:28px
@@ -104,4 +107,18 @@ footer{
   height: auto;
   width: 100%;
   background-color: #333333;
+}
+footer .left{
+    float: left;
+    margin-left: 20px;
+}
+footer .right{
+    float: right;
+    margin-right: 20px;
+}
+.fontNav{
+  font-size: 1.2em;
+}
+.fontTitulos{
+  font-size: 60px;
 }
